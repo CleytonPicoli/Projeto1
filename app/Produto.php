@@ -13,6 +13,6 @@ protected $fillable =[
 
 public function categoria()
     {
-        return $this->belongsTo('App\Categorias');
+        return $this->belongsTo('App\Categorias','categoria_id');
     }
 }
